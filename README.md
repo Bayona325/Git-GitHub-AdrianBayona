@@ -85,4 +85,30 @@ En este caso se hace uso del comando clone, especificando la rama que se quiere 
 ```Git
 git clone -b {nombre de la rama} --single-branch https://github.com/{Cuenta GitHub}/{nombre del repositorio}.git
 ```
+## Colocar commits a la rama
+Para darle un commit a la rama que se desea, primero hay que inicializar la rama
+```Git
+git init
+```
+despues de eso, se selecciona lo que que se quiere subir utilizando add
+```Git
+git add {nombre del archivo deseado}
+```
+en el caso de que se quiera subir todos los archivos propios de la rama, despues del add se agrega un punto
+```Git
+git add .
+```
+con ello especificas que deseas seleccionar todo lo que se encuentre en la rama, y con esto listo, ya es posible el uso de la linea commit
+```Git
+git commit -m "docs: :memo: Se a creado algo"
+```
+recuerde hacer uso de docs o el tipo de especificacion que se desee para ello, tambien seria mejor hacer uso de un emoji, el cual, en este caso es ":memo:", mas detalles abrir Gitemoji-Camper.md
+
+Tambien cabe recordar, que el "-m" necesario para agregar el commit hace referencia a que lo que se va agregar es un mensaje.
+## Fusionar ramas
+se utiliza desde la rama que quiere tomar los datos de las otras ramas para agregarlos asi mismo
+```Git
+git merge
+```
 ## Inializacion de GitHub
+
