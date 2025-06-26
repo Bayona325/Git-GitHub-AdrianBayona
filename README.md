@@ -14,6 +14,14 @@ tambien hay que inicializar un "init.defaultBranch" para especificar cual sera e
 git config --global init.defaultBranch main
 git config --global core.editor "code --wait"
 ```
+## Cerrar inicializacion Git
+Para cerrar toda inicializacion git, es necesario agregar --unset antes de especificar la inicializacion y no se le debe dar un valor despues de esta
+```Git
+git config --global --unset user.name
+git config --global --unset user.email
+git config --global --unset init.defaultBranch
+git config --global --unset core.editor
+```
 ## Crear y eliminar una rama externa o aparte
 Para crear una rama se tiende a utilizar la siguiente funcion:
 ```Git
