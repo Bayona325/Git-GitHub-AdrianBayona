@@ -83,6 +83,6 @@ code .\Ejemplo
 ## Clonar una rama de un repositorio de GitHub a una carpeta local
 En este caso se hace uso del comando clone, especificando la rama que se quiere clonar junto con la URL del repositorio
 ```Git
-git clone -b {nombre de la rama} --single-branch https://github.com/{Cuenat GitHub}/{nombre del repositorio}.git
+git clone -b {nombre de la rama} --single-branch https://github.com/{Cuenta GitHub}/{nombre del repositorio}.git
 ```
 ## Inializacion de GitHub
