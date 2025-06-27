@@ -110,5 +110,25 @@ se utiliza desde la rama que quiere tomar los datos de las otras ramas para agre
 ```Git
 git merge
 ```
+## Ver historial de commit
+para ver el historial de commits, es necesario hacer uso de la siguiente linea
+```Git
+git log
+```
+Y en el caso de querer verlo contraido se utiliza
+```Git
+git log --oneline
+```
+## Ver historial de ejecucion de lineas
+Para ver cada ejecucion que se ha hecho
+```Git
+history
+```
+## Para borrar historial
+Para borrar el historial de ejecuciones
+```Git
+history -c
+```
+## Borrar consola
+Para borrar consola, se hace uso de clear o bien se puede utilizar CTRL + L.
 ## Inializacion de GitHub
-
