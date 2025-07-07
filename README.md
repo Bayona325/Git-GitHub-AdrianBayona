@@ -134,7 +134,7 @@ Para borrar consola, se hace uso de clear o bien se puede utilizar CTRL + L.
 ## llamar desde local archivos de GitHub
 Se llama el repositorio que se quiere
 ```Git
-git remote add origin https://github.com/Bayona325/NombreRepositorio.git
+git clone https://github.com/Bayona325/NombreRepositorio.git
 ```
 Despues de llamado se llama un pull
 ```Git
