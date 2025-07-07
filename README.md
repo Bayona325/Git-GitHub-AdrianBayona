@@ -29,7 +29,7 @@ git checkout -b {nombre de la rama}
 ```
 Mientra que para borrar una rama ya existente se tiende a utilizar la siguiente funcion:
 ```Git
-git checkout -D {nombre de la rama existente}
+git branch -d {nombre de la rama existente}
 ```
 ## Ver ramas locales
 Si en algun momento queremos saber en que rama estamos ubicados y de paso saber cuales son las ramas existentes, el uso de esta linea es la necesaria:
@@ -131,4 +131,17 @@ history -c
 ```
 ## Borrar consola
 Para borrar consola, se hace uso de clear o bien se puede utilizar CTRL + L.
+## llamar desde local archivos de GitHub
+Se llama el repositorio que se quiere
+```Git
+git remote add origin https://github.com/Bayona325/NombreRepositorio.git
+```
+Despues de llamado se llama un pull
+```Git
+git pull
+```
+Recuerde, si quiere viajar entre distintas ramas del repositorio de GitHub llame normalmente
+```Git
+git checkout {nombre de la rama existente}
+```
 ## Inializacion de GitHub
