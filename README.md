@@ -131,7 +131,7 @@ history -c
 ```
 ## Borrar consola
 Para borrar consola, se hace uso de clear o bien se puede utilizar CTRL + L.
-## llamar desde local archivos de GitHub
+## llamar desde local archivos de GitHub (Clonar Archivos)
 Se llama el repositorio que se quiere
 ```Git
 git clone https://github.com/Bayona325/NombreRepositorio.git
